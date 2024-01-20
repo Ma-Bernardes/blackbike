@@ -1,0 +1,51 @@
+/*Tirar a margem dentro da tag body*/
+body{
+    margin: 0;
+}
+
+/*Estilizar a tag header*/
+header{
+    background-color: black;
+    padding: 3%;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+/*Estilizar o formulário*/
+.formulario{
+    margin:150px;
+    text-align: center;
+    
+}
+
+/*Estilizar o botão*/
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #525456;
+    border: 1px solid #525456;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Alterar a cor do botão quando passar o mouse*/
+.botao:hover {
+    background-color: #ea7836f9;
+    border: 1px solid #ea7836f9;
+}
+
+
+footer{
+    background-color: black;/*Cor de fundo da tag footer*/
+    color: white;/*Cor das letras*/
+    text-align: center;/*Alinhando o texto ao centro do footer*/
+    padding: 1%;/*Espaço que o footer vai ocupar na página*/
+    position: fixed;/*Fixa a posição do footer*/
+    bottom: 0;/*Fixa o footer na parte de baixo da página*/
+    width: 100%;/*Fixa a largura para que fique de ponta a ponta na página*/
+}
